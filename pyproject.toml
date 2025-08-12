@@ -1,0 +1,16 @@
+[project]
+name = "08-deep-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "pandas>=2.3.1",
+    "scikit-learn>=1.7.1",
+    "tensorboard>=2.20.0",
+    "tensorboardx>=2.6.4",
+    "torch-summary>=1.4.5",
+]
