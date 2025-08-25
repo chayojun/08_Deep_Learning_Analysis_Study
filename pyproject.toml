@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.116.1",
+    "grad-cam>=1.5.5",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.5",
     "numpy>=2.3.2",
@@ -13,9 +14,11 @@ dependencies = [
     "scikit-learn>=1.7.1",
     "streamlit>=1.48.1",
     "streamlit-drawable-canvas>=0.9.3",
+    "streamlit-image-select>=0.6.0",
     "tensorboard>=2.20.0",
     "tensorboardx>=2.6.4",
     "torch-summary>=1.4.5",
     "tqdm>=4.67.1",
+    "utils>=1.0.2",
     "uvicorn>=0.35.0",
 ]
